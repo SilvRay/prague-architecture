@@ -58,19 +58,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
    */
 
   //
-  // GALLERY ANIMATION
-  //
-  const projectHeader = document.querySelector(".section_header.project");
-
-  ScrollTrigger.create({
-    trigger: projectHeader,
-    start: "bottom bottom",
-    end: "bottom top",
-    pin: true,
-    pinSpacing: false,
-  });
-
-  //
   // IMAGE AND CONTENT ANIMATION
   //
   const historyGrid = document.querySelector(".about-grid.history");
